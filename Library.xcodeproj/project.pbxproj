@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6E8810EE2421C3C5005632E8 /* book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = book.h; sourceTree = "<group>"; };
 		6EC48B2624206BFD0001E493 /* Library */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Library; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC48B2924206BFD0001E493 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6EC48B3024206C300001E493 /* date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = date.h; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 			children = (
 				6EC48B2924206BFD0001E493 /* main.cpp */,
 				6EC48B3024206C300001E493 /* date.h */,
+				6E8810EE2421C3C5005632E8 /* book.h */,
 			);
 			path = Library;
 			sourceTree = "<group>";

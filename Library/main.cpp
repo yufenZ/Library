@@ -8,8 +8,9 @@
 
 #include <iostream>
 #include "date.h"
+#include "book.h"
 using namespace std;
-
+/*
 int main(int argc, const char * argv[]) {
     date D1(2019, 4), D2;
     cout<<"D1的年份："<<D1.getYear()<<"\tD1的月份:"<<D1.getMonth()<<endl;
@@ -22,3 +23,14 @@ int main(int argc, const char * argv[]) {
     cout<<D2;
     return 0;
 }
+*/
+
+int main(){
+    date d1(2018, 9);
+    date d2(2010, 11);
+    book b1(123456, "大秦帝国", "孙皓", d1);
+    book b2(34673, "纵横", "张仪", d2);
+    b1.show();
+    return 0;
+}
+

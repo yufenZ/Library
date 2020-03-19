@@ -9,6 +9,7 @@
 #include <iostream>
 #include "date.h"
 #include "book.h"
+#include "user.h"
 using namespace std;
 /*
 int main(int argc, const char * argv[]) {

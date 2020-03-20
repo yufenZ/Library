@@ -12,6 +12,7 @@
 #include <iostream>
 #include <ctime>
 #include <iomanip>
+#include <fstream>
 #include "date.h"
 using namespace std;
 
@@ -81,6 +82,16 @@ public:
             cout<<setw(10)<<this->bookId<<setw(10)<<this->bookName<<setw(10)<<this->author<<setw(6)<<this->dat<<setw(6)<<this->num<<setw(6)<<this->renum<<endl;
             cout<<endl;
         }
+    }
+    //重载输入运算符
+    friend istream &operator>>(istream &input, book &x){
+        input>>x.bookId>>x.bookName>>x.author>>x.dat;
+        return input;
+    }
+    //重载输出运算符
+    friend ostream &operator<<(ostream &output, const book &x){
+        output<<x.bookId<<" "<<x.bookName<<" "<<x.author<<" "<<x.dat<<" "<<x.num<<" "<<x.renum;
+        return output;
     }
     //重载赋值运算符
     void operator=(const book &x){

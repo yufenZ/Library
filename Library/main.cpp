@@ -10,6 +10,7 @@
 #include "date.h"
 #include "book.h"
 #include "user.h"
+#include "admin.h"
 using namespace std;
 /*
 int main(int argc, const char * argv[]) {
@@ -31,7 +32,7 @@ int main(){
     date d2(2010, 11);
     book b1(123456, "大秦帝国", "孙皓", d1);
     book b2(34673, "纵横", "张仪", d2);
-    b1.show();
+    b1.show(1);
     return 0;
 }
 
